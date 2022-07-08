@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 200px;
+            background-color: aqua;
+
+            /* 块级元素隐含了一个默认属性，可以控制互转 */
+            display: inline;
+
+            /* 转为行内块元素，兼顾行级和块级的优势
+                既可以设计宽高
+                也可以在一行显示 */
+            display: inline-block;
+        }
+        span{
+            /* 行级元素转为块元素 */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div>中国</div>
+    <div>美国</div>
+    <div>英国</div>
+
+    <span>中国</span>
+    <span>美国</span>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            /* 内容区域的高宽 */
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            /* 边框，盒子会变大 */
+            border: 20px solid green;
+            /* 设置内边距，盒子也会变大 */
+            padding: 20px;
+
+            /* 盒子尺寸的最终计算方式
+                左边框+左内边距+内容宽度+右内边距+右边框 
+                使用box-sizing: border-box来实现(自动内减)
+                */
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div>a</div>
+</body>
+</html>

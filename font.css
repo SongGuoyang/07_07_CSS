@@ -1,0 +1,4 @@
+font{         /* 选择器，对应body中的font标签 */              
+    font-size: 48px;
+    color:green;
+}
